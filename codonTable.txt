@@ -21,3 +21,4 @@ Arginine      Arg R CGT   CGC   CGA   CGG   AGA   AGG
 Stop          Stop + TAA   TAG   TGA
 Start         Start -  ATG
 test
+test
