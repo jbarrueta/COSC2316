@@ -1,3 +1,24 @@
+#Name: Jorge Barrueta, Alejandro Lopez
+#Date: 12/02/19
+#Course: COSC 2316 Fall 2019 (Dr. Shebaro)
+#Program Description:
+
+######### Algorithm/Psuedocode ########
+
+#1.
+#2.
+#3.
+#4.
+#5.
+#6.
+#7.
+#8.
+#9.
+#10.
+
+
+############# Python Code #############
+
 class Student:
     def __init__(self,name, average, correct, wrong, total):
         self.name = name
@@ -5,6 +26,14 @@ class Student:
         self.correct = correct
         self.wrong = wrong
         self.total = total
+
+#Function Description:
+#Precondition:
+#Postcondition:
+
+
+#Driver Program
+
 
 
 
