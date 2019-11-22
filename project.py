@@ -15,8 +15,8 @@
 # 8. if Learn is pressed, step though the learn dictionary and present the key. Once the user presses
 #   enter show the value, the next enter will go to the next key.
 ##### 9. if Test is pressed, the user will be asked to either create a new Student instance or sign into a previous one
-##### 10. a function will randomly select 5 keys from the dictionary, the user will be displayed the key and must enter the
-#####     equivalent to the value.
+##### 10. a function will randomly select 5 keys from the dictionary, the user will be displayed the key and must enter
+#####     the equivalent to the value.
 ##### 11. if correct, the instance correct will go up as well as total, if wrong, wrong will go up one as well as total
 # 12. Leaderboard will sort the list of users based on total correct, and display the top five.
 # 13. Exit will end the program, saving the changes in users to the text file.
