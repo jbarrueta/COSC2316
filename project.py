@@ -25,19 +25,23 @@
 ############# Python Code #############
 
 class Student:
-    def __init__(self, name, average, correct, wrong, total):
+    def __init__(self, name, correct, wrong, total):
         self.name = name
-        self.average = average
+        self.average = 0 if self.total <= 0 else self.correct/self.average
         self.correct = correct
         self.wrong = wrong
         self.total = total
 
     def __init__(self, name):
         self.name = name
-        self.average = 0
+        self.average = 0 if self.total <= 0 else self.correct/self.average
         self.correct = 0
         self.wrong = 0
         self.total = 0
+
+    def __str__(self):
+        return self.average + " " + self.correct + " " + self.wrong + " " + self.total + " " + self.name
+
 
 # Function Description:
 # Precondition:
