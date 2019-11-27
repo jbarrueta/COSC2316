@@ -41,8 +41,8 @@ class Student:
 # Precondition: readFile will receive a text file
 # Postcondition: will return a list of file lines
 def readFile(txtFile):
-    txtFile = []
-    try
+    txtList = []
+    try:
         with open(txtFile, "r") as inFile:
             txtList = inFile.readlines()
     except IOError:
@@ -82,4 +82,4 @@ def extractUsers(list1):
 usersList = readFile("users.txt")
 print(usersList)
 users = extractUsers(usersList)
-print(users[1].__str__())
+# print(users[1].__str__())
