@@ -57,7 +57,7 @@ class Student:
     def tAverage(self):
         self.average = 0 if self.total <= 0 else (self.correct / self.total) * 100
 
-    def fomatToString(self):
+    def formatToString(self):
         self.tAverage()
         print("Name:", self.name, "|| Average:", self.average, "|| Correct:", self.correct, "|| Wrong:", self.wrong,
               "|| Total:", self.total)
@@ -148,7 +148,7 @@ def testOption():
             elif usrInput == 4:
                 print("\n" * 20)
                 for user in users:
-                    user.fomatToString()
+                    user.formatToString()
             elif usrInput < 1 or usrInput > 5:
                 print("Please enter a valid option")
         except ValueError:
