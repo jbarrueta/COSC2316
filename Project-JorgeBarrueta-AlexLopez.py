@@ -143,6 +143,7 @@ def testOption():
                         found = True
                         print("Successfully deleted the user")
                         break
+                    saveUsers()
                 if not found:
                     print("Could not find the user you wish to delete")
             elif usrInput == 4:
